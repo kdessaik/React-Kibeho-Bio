@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './header/Navbar';
 
 
 function App() {
@@ -8,7 +9,8 @@ return (
     
     <div className="App">
       <header className="App-header">
-        <img src='https://kdessaik.github.io/MY-web-site-BIO/pages/dessai3.jpg' className="App-logo" alt="logo"  />
+        <Navbar/>
+        <img src='https://avatars.githubusercontent.com/u/66333199?v=4' className="App-logo" alt="logo"  />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

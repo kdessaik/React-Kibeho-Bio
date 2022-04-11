@@ -5,13 +5,16 @@ import './index.css';
 import  FormName from './form/Form'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbars from './header/Navbar'
+import Body from './Body/Body'
 
 
 ReactDOM.render(
   
   <React.StrictMode>
-    <App />
-    <FormName/>
+    <Navbars/>
+    
+    <Body/>
     
     
   </React.StrictMode>,
