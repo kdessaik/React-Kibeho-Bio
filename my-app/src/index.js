@@ -7,6 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbars from './header/Navbar'
 import Body from './Body/Body'
+import Footer from './Footer/Footer'
 
 
 ReactDOM.render(
@@ -17,7 +18,9 @@ ReactDOM.render(
     <Body/>
     
     
-  </React.StrictMode>,
+    <Footer/>
+  </React.StrictMode>
+  ,
   
   document.getElementById('root')
 );
